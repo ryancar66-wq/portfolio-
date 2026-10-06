@@ -1,1 +1,8 @@
 <!DOCTYPE html> <html> <head>     <title>My Portfolio</title> </head> <body>     <h1>My Portfolio</h1>     <h2>About Me</h2>     <p>I scroll on TikTok whenever I'm bored.</p>     <h2>My Projects</h2>     <p>Describe one of your programming projects here.</p> </body> </html>
+env:
+  AWS_REGION: us-east-1                         # Replace with your actual AWS region (e.g., us-east-1, us-west-2, eu-west-1)
+  ECR_REPOSITORY: your-ecr-repo-name            # Replace with your ECR repository name
+  ECS_SERVICE: your-ecs-service-name            # Replace with your ECS service name
+  ECS_CLUSTER: your-ecs-cluster-name            # Replace with your ECS cluster name
+  ECS_TASK_DEFINITION: path/to/task-def.json    # Replace with path to your task definition file
+  CONTAINER_NAME: your-container-name           # Replace with your container name
